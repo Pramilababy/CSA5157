@@ -1,0 +1,9 @@
+#Python code to demonstrate MD5 algorithm
+import hashlib
+#input string string='codespeedy.com' 
+#Encoding the input string using encode()
+en=string.encode()
+#passing the encoded string to MD5 hash function
+h=hashlib.md5(en) 
+#printing the digest value 
+print("The byte equivalent is : ",h.digest
